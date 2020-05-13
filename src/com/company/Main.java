@@ -45,6 +45,9 @@ public class Main extends JFrame {
         menuPanel.getLoadFile().addActionListener(new LoadListener());
         panel.add(menuPanel);
 
+        JLabel phone = new JLabel("                                                   Phones");
+        panel.add(phone);
+
         tablePanel = new TablePanel(this.dataController);
         panel.add(tablePanel);
 
