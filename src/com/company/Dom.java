@@ -48,8 +48,8 @@ public class Dom {
 
         student.appendChild(createBookElement(document, "Account", String.valueOf(Account)));
         student.appendChild(createBookElement(document, "Address", Address));
-        student.appendChild(createBookElement(document, "Mob Phone", String.valueOf(Mob_Phone)));
-        student.appendChild(createBookElement(document, "Home Phone", String.valueOf(Home_Phone)));
+        student.appendChild(createBookElement(document, "Mob_Phone", String.valueOf(Mob_Phone)));
+        student.appendChild(createBookElement(document, "Home_Phone", String.valueOf(Home_Phone)));
         return student;
     }
 
